@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #e3f2fd, #ce93d8);
+    color: #333;
+}
+h1, h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #3f51b5;
+    text-align: center;
+}
+h3 {
+    font-size: 1.5em;
+    color: #5c6bc0;
+    margin-top: 20px;
+}
+p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+.navbar {
+    background: #3f51b5;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #3f51b5;
+    color: white;
+}
+.chatbot-icon {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background: #3f51b5;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.chatbot-icon:hover {
+    background: #5c6bc0;
+}
